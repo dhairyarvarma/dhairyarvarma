@@ -1,76 +1,47 @@
-<div align="center">
-
-<img src="assets/banner.svg" width="100%" alt="dhairyarvarma — backend systems, durable by design" />
+<img src="assets/banner.svg" width="100%" alt="dhairyarvarma. Built to hold up. Backend engineering, with failure in mind." />
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=20&amp;pause=1400&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Building+backends+that+handle+failure.;Go+%2F+PostgreSQL+%2F+Redis;Make+it+durable.+Make+it+observable." alt="Building backends that handle failure. Go, PostgreSQL, Redis. Make it durable. Make it observable." />
+I’m **dhairyarvarma**. I’m building backend systems and exploring the decisions that make them reliable: where state lives, when work is retried, and how a system recovers after a crash.
 
-[![GitHub](https://img.shields.io/badge/GitHub-dhairyarvarma-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/dhairyarvarma)
-[![Explore my work](https://img.shields.io/badge/Explore-my_work-7c3aed?style=flat-square&logo=go&logoColor=white)](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public)
+My current focus is **Go, durable queues, and failure recovery**.
 
-</div>
+<br />
 
-## `~/` whoami
+### In focus
 
-```console
-dhairyarvarma@github:~$ cat focus.txt
-> Backend engineering. Durable data. Explicit failure handling.
-> Currently building a fault-tolerant webhook delivery engine in Go.
-> Following the event from the first request to the final delivery.
-```
+#### [Fault-Tolerant Webhook Delivery Engine ↗](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public)
 
-I build backend systems with a focus on what happens when things go wrong: a worker crashes, a receiver slows down, or a queue delivers the same message twice.
+An asynchronous webhook backend built around a simple requirement: accepted work needs a durable path to delivery, even when individual components fail.
 
-My current work brings together transactional outboxes, retries, circuit breakers, and observability in one webhook delivery backend.
+PostgreSQL owns the durable state. A transactional outbox feeds Redis Streams. Workers handle delivery with bounded retries, per-target circuit breakers, and dead-letter replay.
 
-## `~/` selected work
+> At-least-once delivery, with idempotency protection. The interesting part is what happens between attempts.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+[Take the five-minute tour](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/showcase.md) &nbsp; / &nbsp; [Follow a worker crash](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/case-study-delivery-crash.md) &nbsp; / &nbsp; [Read the code](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public)
 
-### ↗ Webhook Delivery Engine
+<br />
 
-A durable, asynchronous webhook backend. PostgreSQL holds the durable state; Redis Streams carries work to the workers.
+### What I care about
 
-Retries with backoff and jitter, per-target circuit breakers, dead-letter replay, and crash recovery. At-least-once delivery with idempotency protection.
+**State that survives.** Keeping durable records separate from the transport that moves work.
 
-`Go` `PostgreSQL` `Redis` `Docker`
+**Failure you can explain.** Explicit transitions, observable attempts, and a recovery path you can trace.
 
-[Explore the repository →](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public)
+**Design you can defend.** Clear guarantees, documented tradeoffs, and evidence behind the claims.
 
-</td>
-<td width="50%" valign="top">
+<br />
 
-### ⌁ Behind the Delivery
-
-A closer look at the same system: the crash boundaries, durable state transitions, and recovery decisions behind a delivery attempt.
-
-Start with the five-minute showcase, then follow the crash-recovery case study through the failure path.
-
-`System design` `Recovery` `Observability`
-
-[Read the showcase →](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/showcase.md) · [Crash case study →](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/case-study-delivery-crash.md)
-
-</td>
-</tr>
-</table>
-
-## `~/` tools in this build
-
-<p align="center">
-<img src="assets/stack.svg" alt="Go, PostgreSQL, Redis, Docker, Prometheus, Grafana, Git, and GitHub" />
-</p>
-
-## `~/` contribution trail
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake.svg" width="100%" alt="Animated snake tracing dhairyarvarma's GitHub contribution graph" />
-</picture>
+**Working with** &nbsp; Go · PostgreSQL · Redis · Docker · Prometheus · Grafana
 
 ---
 
-<p align="center"><sub>Make the failure path as deliberate as the happy path.</sub></p>
+<details>
+<summary>The contribution snake</summary>
+<br />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake.svg" width="100%" alt="A snake following dhairyarvarma's contribution history" />
+</picture>
+</details>

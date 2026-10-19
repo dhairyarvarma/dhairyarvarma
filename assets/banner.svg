@@ -1,27 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-  <title id="title">dhairyarvarma — durable by design</title>
-  <desc id="desc">A dark terminal with purple and lavender accents. An event travels from an API through a database and queue to a worker.</desc>
-  <defs>
-    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#100b1c"/><stop offset="1" stop-color="#241438"/></linearGradient>
-    <linearGradient id="accent"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
-  </defs>
-  <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="380" rx="20" fill="url(#grid)"/>
-  <path d="M24 56H1176" stroke="#ffffff" stroke-opacity=".09"/>
-  <g><circle cx="36" cy="29" r="5" fill="#7c3aed"/><circle cx="56" cy="29" r="5" fill="#a78bfa"/><circle cx="76" cy="29" r="5" fill="#a78bfa"/></g>
-  <g font-family="'Cascadia Code',Consolas,monospace">
-    <text x="108" y="34" fill="#a99cbd" font-size="13">~/dhairyarvarma</text>
-    <text x="60" y="112" fill="#a78bfa" font-size="14" letter-spacing="3">BACKEND / SYSTEMS / RELIABILITY</text>
-    <text x="58" y="178" fill="#f5f0ff" font-size="54" font-weight="700" letter-spacing="-2">dhairyarvarma<tspan fill="#a78bfa">_</tspan></text>
-    <text x="60" y="216" fill="#c4b5d9" font-size="20">Durable by design. Observable by default.</text>
-    <g transform="translate(60 260)">
-      <path d="M130 27H210M340 27H420M550 27H630" stroke="url(#accent)" stroke-width="2"/>
-      <g fill="#1e1230" stroke="#67458a"><rect width="130" height="54" rx="9"/><rect x="210" width="130" height="54" rx="9"/><rect x="420" width="130" height="54" rx="9"/><rect x="630" width="130" height="54" rx="9"/></g>
-      <g text-anchor="middle" font-size="15"><text x="65" y="33" fill="#a78bfa">API</text><text x="275" y="33" fill="#e9d5ff">PostgreSQL</text><text x="485" y="33" fill="#e9d5ff">Redis</text><text x="695" y="33" fill="#a78bfa">Worker</text></g>
-      <circle cx="170" cy="27" r="4" fill="#a78bfa"/><circle cx="380" cy="27" r="4" fill="#c4b5fd"/><circle cx="590" cy="27" r="4" fill="#a78bfa"/>
-    </g>
-    <text x="1138" y="350" text-anchor="end" fill="#a99cbd" font-size="12">build → observe → refine</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">dhairyarvarma — Built to hold up.</title>
+  <desc id="desc">A charcoal banner with white typography and a small violet accent. Offset architectural frames surround a connected path.</desc>
+  <rect width="1200" height="340" rx="12" fill="#111214"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <rect x="48" y="43" width="8" height="8" rx="2" fill="#a78bfa"/>
+    <text x="69" y="54" fill="#c5c7cb" font-size="16" letter-spacing="1">dhairyarvarma</text>
+    <text x="46" y="155" fill="#f3f4f5" font-size="66" font-weight="700" letter-spacing="-3">Built to hold up<tspan fill="#a78bfa">.</tspan></text>
+    <text x="49" y="198" fill="#9b9da3" font-size="21">Backend engineering, with failure in mind.</text>
+    <path d="M49 257H697" stroke="#303135"/>
+    <text x="49" y="287" fill="#a8aab0" font-size="12" letter-spacing="2">DURABLE STATE</text>
+    <circle cx="206" cy="282" r="2" fill="#65666c"/>
+    <text x="225" y="287" fill="#a8aab0" font-size="12" letter-spacing="2">EXPLICIT GUARANTEES</text>
+    <circle cx="435" cy="282" r="2" fill="#65666c"/>
+    <text x="454" y="287" fill="#a8aab0" font-size="12" letter-spacing="2">RECOVERABLE WORK</text>
   </g>
-  <rect x="24" y="371" width="1152" height="2" rx="1" fill="url(#accent)"/>
+  <g fill="none" stroke="#303237" stroke-width="1.5">
+    <rect x="884" y="43" width="224" height="208" rx="6"/>
+    <rect x="855" y="68" width="224" height="208" rx="6"/>
+    <rect x="826" y="93" width="224" height="208" rx="6" fill="#161719"/>
+    <path d="M826 145H1050M878 93V301M998 93V301" stroke="#26282c"/>
+    <path d="M826 249H1050M938 145V249" stroke="#26282c"/>
+    <path d="M849 222H901V171H1019" stroke="#74767e" stroke-width="2"/>
+    <path d="M901 222V171H961" stroke="#a78bfa" stroke-width="2.5"/>
+  </g>
+  <circle cx="849" cy="222" r="5" fill="#b9bbc2"/>
+  <circle cx="961" cy="171" r="6" fill="#a78bfa"/>
+  <circle cx="1019" cy="171" r="4" fill="#74767e"/>
 </svg>
