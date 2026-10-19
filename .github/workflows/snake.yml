@@ -1,0 +1,47 @@
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/snake.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate light and dark contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: dhairyarvarma
+          outputs: |
+            dist/github-snake.svg?color_snake=%237c3aed
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2334d399
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish generated SVGs to output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test -s dist/github-snake.svg
+          test -s dist/github-snake-dark.svg
+          cd dist
+          git init -b output
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add github-snake.svg github-snake-dark.svg
+          git commit -m 'Update contribution snake'
+          AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c "http.extraheader=AUTHORIZATION: basic $AUTH" push --force "https://github.com/${{ github.repository }}.git" HEAD:output
