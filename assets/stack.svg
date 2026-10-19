@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="116" viewBox="0 0 960 116" role="img" aria-labelledby="title">
+  <title id="title">Go, PostgreSQL, Redis, Docker, Prometheus, Grafana, Git, GitHub</title>
+  <g fill="#1e1230" stroke="#67458a">
+    <rect x="8" y="12" width="224" height="38" rx="9"/><rect x="248" y="12" width="224" height="38" rx="9"/><rect x="488" y="12" width="224" height="38" rx="9"/><rect x="728" y="12" width="224" height="38" rx="9"/>
+    <rect x="8" y="66" width="224" height="38" rx="9"/><rect x="248" y="66" width="224" height="38" rx="9"/><rect x="488" y="66" width="224" height="38" rx="9"/><rect x="728" y="66" width="224" height="38" rx="9"/>
+  </g>
+  <g fill="#c4b5fd" font-family="Consolas,monospace" font-size="17" text-anchor="middle">
+    <text x="120" y="37">Go</text><text x="360" y="37">PostgreSQL</text><text x="600" y="37">Redis</text><text x="840" y="37">Docker</text>
+    <text x="120" y="91">Prometheus</text><text x="360" y="91">Grafana</text><text x="600" y="91">Git</text><text x="840" y="91">GitHub</text>
+  </g>
+</svg>

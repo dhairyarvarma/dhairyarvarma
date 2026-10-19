@@ -6,8 +6,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=20&amp;pause=1400&amp;color=A78BFA&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=Building+backends+that+handle+failure.;Go+%2F+PostgreSQL+%2F+Redis;Make+it+durable.+Make+it+observable." alt="Building backends that handle failure. Go, PostgreSQL, Redis. Make it durable. Make it observable." />
 
-[![GitHub](https://img.shields.io/badge/GitHub-dhairyarvarma-161b22?style=flat-square&logo=github&logoColor=white)](https://github.com/dhairyarvarma)
-[![Explore my work](https://img.shields.io/badge/Explore-my_work-34d399?style=flat-square&logo=go&logoColor=black)](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public)
+[![GitHub](https://img.shields.io/badge/GitHub-dhairyarvarma-6d28d9?style=flat-square&logo=github&logoColor=white)](https://github.com/dhairyarvarma)
+[![Explore my work](https://img.shields.io/badge/Explore-my_work-7c3aed?style=flat-square&logo=go&logoColor=white)](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public)
 
 </div>
 
@@ -60,7 +60,7 @@ Start with the five-minute showcase, then follow the crash-recovery case study t
 ## `~/` tools in this build
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=go,postgres,redis,docker,prometheus,grafana,git,github&amp;theme=dark" alt="Go, PostgreSQL, Redis, Docker, Prometheus, Grafana, Git, and GitHub" />
+<img src="assets/stack.svg" alt="Go, PostgreSQL, Redis, Docker, Prometheus, Grafana, Git, and GitHub" />
 </p>
 
 ## `~/` contribution trail
