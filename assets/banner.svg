@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">dhairyarvarma — durable by design</title>
+  <desc id="desc">A dark terminal with mint and purple accents. An event travels from an API through a database and queue to a worker.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#19152c"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#34d399"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#grid)"/>
+  <path d="M24 56H1176" stroke="#ffffff" stroke-opacity=".09"/>
+  <g><circle cx="36" cy="29" r="5" fill="#f87171"/><circle cx="56" cy="29" r="5" fill="#fbbf24"/><circle cx="76" cy="29" r="5" fill="#34d399"/></g>
+  <g font-family="'Cascadia Code',Consolas,monospace">
+    <text x="108" y="34" fill="#8b949e" font-size="13">~/dhairyarvarma</text>
+    <text x="60" y="112" fill="#34d399" font-size="14" letter-spacing="3">BACKEND / SYSTEMS / RELIABILITY</text>
+    <text x="58" y="178" fill="#f0f6fc" font-size="54" font-weight="700" letter-spacing="-2">dhairyarvarma<tspan fill="#34d399">_</tspan></text>
+    <text x="60" y="216" fill="#b3b9c5" font-size="20">Durable by design. Observable by default.</text>
+    <g transform="translate(60 260)">
+      <path d="M130 27H210M340 27H420M550 27H630" stroke="url(#accent)" stroke-width="2"/>
+      <g fill="#111827" stroke="#354254"><rect width="130" height="54" rx="9"/><rect x="210" width="130" height="54" rx="9"/><rect x="420" width="130" height="54" rx="9"/><rect x="630" width="130" height="54" rx="9"/></g>
+      <g text-anchor="middle" font-size="15"><text x="65" y="33" fill="#34d399">API</text><text x="275" y="33" fill="#e2e8f0">PostgreSQL</text><text x="485" y="33" fill="#e2e8f0">Redis</text><text x="695" y="33" fill="#a78bfa">Worker</text></g>
+      <circle cx="170" cy="27" r="4" fill="#34d399"/><circle cx="380" cy="27" r="4" fill="#76d5cc"/><circle cx="590" cy="27" r="4" fill="#a78bfa"/>
+    </g>
+    <text x="1138" y="350" text-anchor="end" fill="#8b949e" font-size="12">build → observe → refine</text>
+  </g>
+  <rect x="24" y="371" width="1152" height="2" rx="1" fill="url(#accent)"/>
+</svg>
