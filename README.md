@@ -1,25 +1,26 @@
-<img src="assets/banner.svg" width="100%" alt="dhairyarvarma. Built to hold up. Backend engineering, with failure in mind." />
+<img src="assets/banner.svg" width="100%" alt="dhairyarvarma. Built to hold up. Full Stack Developer." />
 
 <p align="center">
   <img src="assets/focus.svg" width="640" alt="Backend systems. Thoughtful design. Failure-aware engineering." />
 </p>
 
-I’m **dhairyarvarma**. I’m building backend systems and exploring the decisions that make them reliable: where state lives, when work is retried, and how a system recovers after a crash.
+I’m **dhairyarvarma**, a **Full Stack Developer** who enjoys turning an idea into a working product and making sure the system behind it holds up. I’m especially interested in how application code, data, and asynchronous work fit together.
 
-My current focus is **Go, durable queues, and failure recovery**. I like following a request beyond the happy path — through the queue, the retry, and the restart.
+On my workbench: a webhook delivery platform built with **Go, PostgreSQL, Redis, and Docker**. I follow each request from API to database to receiver, including retries, restarts, and the less predictable parts.
 
 <p>
+  <img src="https://img.shields.io/badge/ROLE-Full%20Stack%20Developer-8b5cf6?style=flat-square&amp;labelColor=24262b" alt="Role: Full Stack Developer" />
   <a href="https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public"><img src="https://img.shields.io/badge/BUILDING-Webhook%20Delivery-24262b?style=flat-square&amp;labelColor=24262b&amp;color=8b5cf6" alt="Building: Webhook Delivery" /></a>
   <a href="https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/actions"><img src="https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/actions/workflows/ci.yml/badge.svg" alt="Project CI status" /></a>
 </p>
 
 <br />
 
-### In focus
+### Featured build
 
 #### [Fault-Tolerant Webhook Delivery Engine ↗](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public)
 
-An asynchronous webhook backend built around a simple requirement: accepted work needs a durable path to delivery, even when individual components fail.
+A webhook delivery platform built around a simple promise: once an event is accepted, it has a durable path to its destination, even when parts of the system fail.
 
 PostgreSQL owns the durable state. A transactional outbox feeds Redis Streams. Workers handle delivery with bounded retries, per-target circuit breakers, and dead-letter replay.
 
@@ -31,7 +32,7 @@ PostgreSQL owns the durable state. A transactional outbox feeds Redis Streams. W
 
 <br />
 
-### Engineering notebook
+### Design notes
 
 <table>
 <tr>
@@ -56,27 +57,29 @@ Queues, retries, and idempotency have different jobs. The system’s guarantees 
 </tr>
 </table>
 
-### On my workbench
+### Tools I use
 
 <p>
   <img src="https://skillicons.dev/icons?i=go,postgres,redis,docker,prometheus,grafana,git,github&amp;theme=dark&amp;perline=8" alt="Go, PostgreSQL, Redis, Docker, Prometheus, Grafana, Git, and GitHub" />
 </p>
 
-**Build** &nbsp; Go · PostgreSQL · Redis &nbsp; / &nbsp; **Run & inspect** &nbsp; Docker · Prometheus · Grafana
+**Application** &nbsp; Go &nbsp; · &nbsp; **Data & queues** &nbsp; PostgreSQL · Redis &nbsp; · &nbsp; **Delivery & visibility** &nbsp; Docker · Prometheus · Grafana
 
-<sub>Tools used in my current project, rather than a self-rated skills chart.</sub>
+<sub>Shown from the project I’m building.</sub>
 
 <br />
 
-### Principles behind the code
+### How I approach a build
 
-**Keep the state durable.** &nbsp; **Make failures visible.** &nbsp; **Document the tradeoffs.**
+<table><tr><td><b>01 · Understand the flow</b><br/>Map a request through the app and its dependencies.</td><td><b>02 · Plan for failure</b><br/>Decide how retries and recovery should work.</td><td><b>03 · Make it observable</b><br/>Leave enough evidence to explain what happened.</td></tr></table>
 
 ---
 
-### The contribution trail
+### GitHub activity
 
-<sub>A little motion between builds. Refreshed daily by GitHub Actions.</sub>
+<sub>Contribution history · updated daily</sub>
+
+<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=dhairyarvarma&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=a78bfa&amp;icon_color=a78bfa&amp;text_color=9b9da3" height="155" alt="GitHub activity summary" /></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake-dark.svg" />
@@ -84,4 +87,4 @@ Queues, retries, and idempotency have different jobs. The system’s guarantees 
   <img src="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake.svg" width="100%" alt="A snake following dhairyarvarma's contribution history" />
 </picture>
 
-<p align="right"><sub>Always a work in progress. Built with intent.</sub></p>
+<p align="right"><sub>Curious by default. Building one piece at a time.</sub></p>

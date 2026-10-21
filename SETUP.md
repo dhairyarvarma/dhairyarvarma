@@ -10,7 +10,7 @@ The snake image will appear after the first successful run. Its generator is [Pl
 
 Suggested profile bio (set in GitHub's Edit profile):
 
-> Building durable backend systems with Go, PostgreSQL, and Redis. Interested in failure recovery, delivery semantics, and observability.
+> Full Stack Developer building reliable applications with Go, PostgreSQL, and Redis.
 
 Suggested pin: **fault-tolerant-webhook-dispatcher-public**.
 
