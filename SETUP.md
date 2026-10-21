@@ -6,7 +6,7 @@ GitHub displays the root README on your profile when the public repository name 
 
 Open **Actions → Contribution snake → Run workflow** to generate the first snake. After that it refreshes daily. It uses the built-in `GITHUB_TOKEN`; no personal access token is needed. The workflow replaces the `output` branch with the two generated SVGs, so reserve that branch for generated assets. It does not change `main`. Repository or organization policies must permit Actions and writes to `output`.
 
-The snake image will appear after the first successful run. Its generator is [Platane/snk](https://github.com/Platane/snk). It uses a neutral grid with a purple snake. The banner, pulsing intro, and animated architecture are local SVGs. The animation is illustrative, not live telemetry. Tool icons and badges use external image services.
+The snake image will appear after the first successful run. Its generator is [Platane/snk](https://github.com/Platane/snk). Its contribution levels use GitHub's green palette, with a purple snake accent. The banner, pulsing intro, and animated architecture are local SVGs. The animation is illustrative, not live telemetry. Tool icons and badges use external image services. GitHub activity summary cards are omitted because third-party stats services can lag or remain stuck loading.
 
 Suggested profile bio (set in GitHub's Edit profile):
 

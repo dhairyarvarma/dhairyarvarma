@@ -77,9 +77,7 @@ Queues, retries, and idempotency have different jobs. The system’s guarantees 
 
 ### GitHub activity
 
-<sub>Contribution history · updated daily</sub>
-
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=dhairyarvarma&amp;show_icons=true&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=a78bfa&amp;icon_color=a78bfa&amp;text_color=9b9da3" height="155" alt="GitHub activity summary" /></p>
+<sub>The snake traces the same contribution history shown on my GitHub profile. Refreshed daily.</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake-dark.svg" />
