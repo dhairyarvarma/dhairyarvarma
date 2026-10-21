@@ -6,7 +6,7 @@ GitHub displays the root README on your profile when the public repository name 
 
 Open **Actions → Contribution snake → Run workflow** to generate the first snake. After that it refreshes daily. It uses the built-in `GITHUB_TOKEN`; no personal access token is needed. The workflow replaces the `output` branch with the two generated SVGs, so reserve that branch for generated assets. It does not change `main`. Repository or organization policies must permit Actions and writes to `output`.
 
-The snake generator is [Platane/snk](https://github.com/Platane/snk). Its contribution levels use GitHub's green palette, with a purple snake accent. The new comic header is a local SVG built from pixel rectangles with a live swing animation. Tool icons and badges use external image services.
+The snake generator is [Platane/snk](https://github.com/Platane/snk). Its contribution levels use GitHub's green palette, with a purple snake accent. The Spider-Man banner is an SVG scene built entirely from square pixels, including the lettering and animated swing. Tool icons use an external image service.
 
 Suggested profile bio (set in GitHub's Edit profile):
 
@@ -15,3 +15,4 @@ Suggested profile bio (set in GitHub's Edit profile):
 Suggested pin: **fault-tolerant-webhook-dispatcher-public**.
 
 The profile features the current RepoScope project at a high level and the public webhook engine with links to its documentation. RepoScope is private, so the profile does not link to its source or expose implementation evidence beyond its high-level purpose. Review public wording before future changes to that project. Your existing avatar and account settings are untouched.
+
