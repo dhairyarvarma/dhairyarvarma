@@ -1,7 +1,7 @@
 <img src="assets/banner.svg" width="100%" alt="dhairyarvarma. Built to hold up. Full Stack Developer." />
 
 <p align="center">
-  <img src="assets/focus.svg" width="640" alt="Backend systems. Thoughtful design. Failure-aware engineering." />
+  <img src="assets/focus.svg" width="640" alt="Full Stack Developer. Thoughtful design. Systems that hold up." />
 </p>
 
 I’m **dhairyarvarma**, a **Full Stack Developer** who enjoys turning an idea into a working product and making sure the system behind it holds up. I’m especially interested in how application code, data, and asynchronous work fit together.
