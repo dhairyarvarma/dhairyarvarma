@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="54" viewBox="0 0 640 54" role="img" aria-labelledby="title">
-  <title id="title">Full Stack Developer. Thoughtful design. Systems that hold up.</title>
-  <circle cx="18" cy="27" r="4" fill="#a78bfa"/>
-  <circle cx="18" cy="27" r="8" fill="none" stroke="#a78bfa" opacity=".3">
-    <animate attributeName="r" values="7;12;7" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".45;.1;.45" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <text x="39" y="32" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#8b8795">Full Stack Developer · Thoughtful design · Systems that hold up</text>
-</svg>
