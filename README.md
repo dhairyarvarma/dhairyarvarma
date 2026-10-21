@@ -1,62 +1,54 @@
 <p align="center">
-  <img src="assets/comic-hero.svg" width="100%" alt="Pixel-art night city with Spider-Man swinging on a web. Dhairyarvarma: build the whole thing. Full Stack Developer." />
+  <img src="assets/comic-hero.svg" width="100%" alt="Animated pixel-art Spider-Man swinging over a purple night city. FULL STACK DEV appears below in purple pixel lettering." />
 </p>
 
 <p align="center">
-  <strong>Dhairya Varma</strong> · Full Stack Developer<br/>
-  From a useful interface to the systems that make it work.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/NOW%20BUILDING-RepoScope-a78bfa?style=for-the-badge&amp;labelColor=171223" alt="Now building RepoScope" />
-  <a href="https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public"><img src="https://img.shields.io/badge/EXPLORE-Webhook%20Engine-8b5cf6?style=for-the-badge&amp;labelColor=171223" alt="Explore the public webhook engine" /></a>
+  <strong>Dhairya Varma · Full Stack Developer</strong><br/>
+  I build the interface, the system behind it, and the path through the unexpected.
 </p>
 
 ---
 
-## ◈ Current mission / RepoScope
+## 🕸️ 01 / Mission board
 
-**What if a code review showed not only what changed, but what that change might affect?**
+| **NOW SWINGING THROUGH** | **ALREADY IN THE CITY** |
+| :-- | :-- |
+| **RepoScope** · local MVP | **Fault-Tolerant Webhook Delivery Engine** · public project |
+| A code-change impact tool. It compares committed revisions, follows static import evidence, and ranks candidate tests with reasons you can inspect in a browser UI. Source is read locally, without running or uploading it. | A durable path from accepted event to receiver: PostgreSQL stores events and outbox state, Redis Streams moves work, and workers handle retries, circuit breakers, and replay. |
+| **The question:** “What might this change affect, and why?” | **The promise:** at-least-once delivery with idempotency protection, including a documented crash-recovery path. |
+| Python · Git · HTML/CSS/JavaScript | Go · PostgreSQL · Redis · Docker |
 
-RepoScope is my current project: a local Python tool that compares committed revisions, traces static import evidence, and ranks candidate tests with reasons you can inspect in a browser UI. It reads source without running it or uploading it. I’m shaping it as a practical way to explore impact while keeping uncertainty visible.
+<sub>RepoScope is the project I’m working on now. Its repository is private, so there is no source link yet.</sub>
 
-| Status | Stack | Focus |
-| :-- | :-- | :-- |
-| Local MVP · private repository | Python · Git · HTML/CSS/JavaScript | Change impact · test selection · clear evidence |
+<p align="center">
+  <a href="https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public">Explore the webhook engine ↗</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/showcase.md">Five-minute walkthrough ↗</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/case-study-delivery-crash.md">Crash-recovery case file ↗</a>
+</p>
 
-<sub>The repository is private while I continue working on it. This section describes the project; it does not link to private source.</sub>
-
-## ◈ Shipped work / Webhook Delivery Engine
-
-A durable delivery system for the messy gap between accepting a webhook event and reaching the receiver. PostgreSQL holds event and outbox state; Redis Streams moves work; workers handle retries, circuit breakers, and replay.
-
-**The contract:** at-least-once delivery with idempotency protection. I document the edge cases instead of hiding them behind a success message.
-
-[View the public repository ↗](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public) &nbsp; · &nbsp; [Five-minute walkthrough ↗](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/showcase.md) &nbsp; · &nbsp; [Crash-recovery case study ↗](https://github.com/dhairyarvarma/fault-tolerant-webhook-dispatcher-public/blob/main/docs/case-study-delivery-crash.md)
-
----
-
-## ◈ My toolkit
+## 🕷️ 02 / The tool belt
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,go,js,html,css,postgres,redis,docker,git,github&amp;theme=dark&amp;perline=10" alt="Python, Go, JavaScript, HTML, CSS, PostgreSQL, Redis, Docker, Git, and GitHub" />
 </p>
 
-| Build the experience | Make it work | Understand it in production |
+| What people see | What keeps it running | What helps me understand it |
 | :-- | :-- | :-- |
-| Browser UI · HTML/CSS/JavaScript | Python · Go · PostgreSQL · Redis | Git · Docker · Prometheus · Grafana |
+| Browser UI · HTML · CSS · JavaScript | Python · Go · PostgreSQL · Redis | Git · Docker · Prometheus · Grafana |
 
-## ◈ What keeps me curious
+## 🕸️ 03 / Field notes
 
-<table>
-<tr><td width="33%" valign="top"><b>01 / Explain the change</b><br/>Connect a diff to the code and tests it may affect.</td><td width="33%" valign="top"><b>02 / Expect failure</b><br/>Give retries, recovery and partial results an explicit path.</td><td width="33%" valign="top"><b>03 / Show the evidence</b><br/>Make the system’s decision understandable to the person using it.</td></tr>
-</table>
+| **01 / Follow the thread** | **02 / Plan for the fall** | **03 / Show your work** |
+| :-- | :-- | :-- |
+| A change is more useful when I can trace what it might touch. | Retries and recovery deserve real design, not a hopeful success message. | Good tools show the evidence behind their suggestions. |
 
----
+These ideas connect my current work: RepoScope makes possible impact visible; the webhook engine makes failure and recovery explicit.
 
-## ◈ Contribution trail
+## 🕷️ 04 / Contribution trail
 
-<p align="center"><sub>The pixels below are generated from my GitHub contribution graph each day. Purple is the swinging snake; green is the activity grid.</sub></p>
+<p align="center"><sub>My GitHub activity, redrawn daily. The purple snake moves through the contribution pixels.</sub></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake-dark.svg" />
@@ -64,4 +56,5 @@ A durable delivery system for the messy gap between accepting a webhook event an
   <img src="https://raw.githubusercontent.com/dhairyarvarma/dhairyarvarma/output/github-snake.svg" width="100%" alt="Animated snake moving across Dhairya's contribution history" />
 </picture>
 
-<p align="center"><sub>One project at a time. One useful detail at a time.</sub></p>
+<p align="center"><sub>One project at a time. One useful detail at a time. 🕸️</sub></p>
+
