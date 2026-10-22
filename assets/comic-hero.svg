@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
 <title id="title">Dhairya Varma | Full Stack Developer</title>
-<desc id="desc">A compact square-pixel Spider-Man swings above a purple pixel-lettered Full Stack Dev title and a night city.</desc>
+<desc id="desc">A compact square-pixel Spider-Man swings over a night city, with a small white pixel angel in the background and a purple pixel-lettered Full Stack Dev title below.</desc>
 <rect x="0" y="0" width="1200" height="540" fill="#0a0c19"/>
 <rect x="1072" y="232" width="8" height="8" fill="#8e81b6"/>
 <rect x="360" y="296" width="4" height="4" fill="#645a91"/>
@@ -266,6 +266,35 @@
 <rect x="960" y="93" width="12" height="10" fill="#705699"/>
 <rect x="944" y="171" width="24" height="10" fill="#705699"/>
 <rect x="992" y="148" width="12" height="10" fill="#705699"/>
+<g id="pixel-angel" opacity=".78" shape-rendering="crispEdges">
+  <!-- White halo, feathered wings, and robe use the same square-pixel grid as the skyline. -->
+  <rect x="341" y="144" width="30" height="6" fill="#fffaff"/>
+  <rect x="335" y="150" width="6" height="6" fill="#fffaff"/>
+  <rect x="371" y="150" width="6" height="6" fill="#fffaff"/>
+  <rect x="341" y="156" width="30" height="6" fill="#fffaff"/>
+  <rect x="347" y="168" width="18" height="6" fill="#f4f1ff"/>
+  <rect x="341" y="174" width="30" height="18" fill="#f4f1ff"/>
+  <rect x="347" y="180" width="6" height="6" fill="#a9a4c5"/>
+  <rect x="359" y="180" width="6" height="6" fill="#a9a4c5"/>
+  <rect x="347" y="192" width="18" height="6" fill="#d8d4eb"/>
+  <rect x="323" y="192" width="18" height="6" fill="#fffaff"/>
+  <rect x="371" y="192" width="18" height="6" fill="#fffaff"/>
+  <rect x="311" y="198" width="30" height="6" fill="#fffaff"/>
+  <rect x="371" y="198" width="30" height="6" fill="#fffaff"/>
+  <rect x="299" y="204" width="42" height="6" fill="#f4f1ff"/>
+  <rect x="371" y="204" width="42" height="6" fill="#f4f1ff"/>
+  <rect x="305" y="210" width="36" height="6" fill="#e7e3f4"/>
+  <rect x="371" y="210" width="36" height="6" fill="#e7e3f4"/>
+  <rect x="317" y="216" width="24" height="6" fill="#d8d4eb"/>
+  <rect x="371" y="216" width="24" height="6" fill="#d8d4eb"/>
+  <rect x="329" y="222" width="12" height="6" fill="#d8d4eb"/>
+  <rect x="371" y="222" width="12" height="6" fill="#d8d4eb"/>
+  <rect x="341" y="198" width="30" height="24" fill="#fffaff"/>
+  <rect x="335" y="222" width="42" height="12" fill="#fffaff"/>
+  <rect x="329" y="234" width="54" height="12" fill="#f4f1ff"/>
+  <rect x="323" y="246" width="66" height="6" fill="#e7e3f4"/>
+  <rect x="329" y="252" width="54" height="6" fill="#d8d4eb"/>
+</g>
 <rect x="0" y="319" width="88" height="103" fill="#1b1c32"/>
 <rect x="0" y="319" width="88" height="8" fill="#292541"/>
 <rect x="12" y="339" width="6" height="9" fill="#3e365e"/>
