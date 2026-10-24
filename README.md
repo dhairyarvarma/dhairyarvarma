@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/comic-hero.svg" width="100%" alt="Looping pixel scene: Batman throws a batarang into Spider-Man's web. Spider-Man falls and shoots a new web. A small white angel floats behind them above the purple pixel lettering FULL STACK DEV." />
+  <img src="assets/comic-hero.svg" width="100%" alt="Pixel Batman stands on the left facing Spider-Man, who swings on the right. Batman moves subtly while FULL STACK DEV types itself one purple pixel letter at a time below." />
 </p>
 
 <p align="center">
