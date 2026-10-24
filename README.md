@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/comic-hero.svg" width="100%" alt="Animated pixel-art Spider-Man crouches mid-swing with one arm outstretched over a purple night city. A small white angel is in the background, with FULL STACK DEV in purple pixel lettering below." />
+  <img src="assets/comic-hero.svg" width="100%" alt="Looping pixel scene: Batman throws a batarang into Spider-Man's web. Spider-Man falls and shoots a new web. A small white angel floats behind them above the purple pixel lettering FULL STACK DEV." />
 </p>
 
 <p align="center">
