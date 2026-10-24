@@ -2127,6 +2127,9 @@
 <rect x="1080" y="397" width="4" height="4" fill="#0d0e19"/>
 <rect x="996" y="145" width="8" height="20" fill="#0d0e19"/>
 <rect x="1040" y="141" width="8" height="24" fill="#0d0e19"/>
+<rect x="1000" y="197" width="44" height="16" fill="#0d0e19"/>
+<rect x="1004" y="201" width="8" height="4" fill="#f4f0f7"/>
+<rect x="1032" y="201" width="8" height="4" fill="#f4f0f7"/>
 </g>
 <g id="first-web" shape-rendering="crispEdges">
 <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.22;.225;.97;1" calcMode="discrete" dur="7.5s" repeatCount="indefinite"/>
